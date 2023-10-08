@@ -11,7 +11,7 @@ export default function Home({ posts }) {
   return (
     <div>
       <Head>
-        <title>Notion Next.js blog</title>
+        <title>Ramiro's Tech Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -20,11 +20,11 @@ export default function Home({ posts }) {
           <div className={styles.logos}>
             <Image priority src={logo} height={75} alt="Ramiro Logo" />
           </div>
-          <h1>Ramiro's Blog</h1>
-          <p>Software engineering in times of ...</p>
+          <h1>Ramiro's Tech Blog</h1>
+          <p>Reflections of a technologist</p>
         </header>
 
-        <h2 className={styles.heading}>Posts</h2>
+        <h2 className={styles.heading}>Latest Posts</h2>
         <ol className={styles.posts}>
           {posts.map((post) => {
             const date = new Date(post.last_edited_time).toLocaleString(
@@ -44,7 +44,7 @@ export default function Home({ posts }) {
                     </Link>
                   </h1>
                   <p className={styles.postDescription}>{date}</p>
-                  <Link href={`/${post.id}`}>Read post →</Link>
+                  {/* <Link href={`/${post.id}`}>Read post →</Link> */}
                 </article>
               </li>
             );
