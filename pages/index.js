@@ -8,6 +8,7 @@ import logo from "../assets/logo.svg";
 export const databaseId = process.env.NOTION_DATABASE_ID;
 
 export default function Home({ posts }) {
+  console.log(posts[0]);
   return (
     <div>
       <Head>
@@ -27,24 +28,29 @@ export default function Home({ posts }) {
         <h2 className={styles.heading}>Latest Posts</h2>
         <ol className={styles.posts}>
           {posts.map((post) => {
-            const date = new Date(post.last_edited_time).toLocaleString(
-              "en-US",
-              {
-                month: "short",
-                day: "2-digit",
-                year: "numeric",
-              }
-            );
+            const date = new Date(
+              post.properties.Created.created_time
+            ).toLocaleString("en-US", {
+              month: "short",
+              day: "2-digit",
+              year: "numeric",
+            });
             return (
               <li key={post.id} className={styles.post}>
                 <article>
-                  <h1 className={styles.postTitle}>
-                    <Link href={`/${post.id}`}>
-                      <Text text={post.properties.Name.title} />
-                    </Link>
-                  </h1>
-                  <p className={styles.postDescription}>{date}</p>
-                  {/* <Link href={`/${post.id}`}>Read post →</Link> */}
+                  <header>
+                    <h1 className={styles.postTitle}>
+                      <Link href={`/${post.id}`}>
+                        <Text text={post.properties.Name.title} />
+                      </Link>
+                    </h1>
+                    <time className={styles.postDescription}>{date}</time>
+                  </header>
+                  <footer>
+                    {post.properties.Tags.multi_select.map((tag) => (
+                      <span>{tag.name} - </span>
+                    ))}
+                  </footer>
                 </article>
               </li>
             );
