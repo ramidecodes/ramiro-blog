@@ -8,7 +8,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Ramiro writes Tech - Blog',
+  name: 'Ramiro writes - Tech & Society Blog',
   domain: 'ramirotech.blog',
   author: 'Ramiro Ramirez',
 
