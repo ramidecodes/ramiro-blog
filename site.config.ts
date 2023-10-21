@@ -13,7 +13,8 @@ export default siteConfig({
   author: 'Ramiro Ramirez',
 
   // open graph metadata (optional)
-  description: 'Exploring technology',
+  description:
+    'Exploring technology and society through the lens of a software engineer.',
 
   // social usernames (optional)
   twitter: 'eco_virtual',
