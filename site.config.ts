@@ -19,7 +19,7 @@ export default siteConfig({
   // social usernames (optional)
   twitter: 'eco_virtual',
   github: 'ecovirtual',
-  linkedin: 'ramirezramiro/?locale=en_US',
+  linkedin: 'ramirezramiro',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
