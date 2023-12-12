@@ -1,13 +1,13 @@
 {
-  "name": "ramiro-writes-tech-blog",
+  "name": "rami-decodes",
   "version": "2.0.0",
   "private": true,
-  "description": "Ramiro Writes Tech - A blog about technology, society and beyond.",
+  "description": "Rami Decodes - Technology, society and beyond.",
   "author": "Ramiro Ramirez <ramiro.ecovirtual@gmail.com>",
   "repository": "ecovirtual/notion-blog",
   "license": "MIT",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "scripts": {
     "dev": "next dev",

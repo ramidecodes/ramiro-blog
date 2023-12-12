@@ -8,8 +8,8 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Ramiro writes - Tech & Society Blog',
-  domain: 'ramirotech.blog',
+  name: 'Rami Decodes',
+  domain: 'ramidecodes.com',
   author: 'Ramiro Ramirez',
 
   // open graph metadata (optional)
@@ -17,7 +17,7 @@ export default siteConfig({
     'Exploring technology and society through the lens of a software engineer.',
 
   // social usernames (optional)
-  twitter: 'eco_virtual',
+  twitter: 'rami_decodes',
   github: 'ecovirtual',
   linkedin: 'ramirezramiro',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
