@@ -1,12 +1,12 @@
-
 # Ramiro Tech - Blog
 
 ### Based on NextJS Notion Starter Kit
+
 [![Build Status](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/actions/workflows/build.yml/badge.svg)](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/actions/workflows/build.yml) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
 
 ## Intro
 
-This repo is what I use to power my personal blog and portfolio site [ramirotech.blog](https://ramirotech.blog).
+This repo is what I use to power my personal blog and portfolio site [ramidecodes.com](https://ramidecodes.com).
 
 It uses Notion as a CMS, [react-notion-x](https://github.com/NotionX/react-notion-x), [Next.js](https://nextjs.org/), and [Vercel](https://vercel.com).
 
@@ -28,7 +28,7 @@ It uses Notion as a CMS, [react-notion-x](https://github.com/NotionX/react-notio
 ## Demos
 
 - [Default demo](https://nextjs-notion-starter-kit.transitivebullsh.it)
-- [My site](https://ramirotech.blog) - Deployed from the `main` branch
+- [My site](https://ramidecodes.com) - Deployed from the `main` branch
 
 ## Setup
 
@@ -106,6 +106,7 @@ Every notion block gets its own unique classname, so you can target individual b
 ```
 
 ## Automatic Social Images
+
 All Open Graph and social meta tags are generated from your Notion content, which makes social sharing look professional by default.
 
 Social images are generated automatically using [Vercel OG Image Generation](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation). You can tweak the default React template for social images by editing [api/social-images.tsx](./pages/api/social-image.tsx).
@@ -120,4 +121,4 @@ If you want to test your redis builds with GitHub Actions, then you'll need to e
 
 ## License
 
-MIT © [Ramiro Ramirez](https://ramirotech.blog)
+MIT © [Ramiro Ramirez](https://ramidecodes.com)
