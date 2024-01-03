@@ -18,7 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   twitter: 'rami_decodes',
-  github: 'ecovirtual',
+  github: 'ramidecodes',
   linkedin: 'ramirezramiro',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
@@ -55,12 +55,12 @@ export default siteConfig({
   // navigationLinks: [
   //   {
   //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+  //     pageId: 'About-6802365817f74319b8003d9be24f3dfd'
   //   }
-  // ]
-  isSearchEnabled: false
+  //   // {
+  //   //   title: 'Contact',
+  //   //   pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+  //   // }
+  // ],
+  isSearchEnabled: true
 })
