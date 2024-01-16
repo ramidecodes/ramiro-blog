@@ -86,11 +86,11 @@
 }
 
 .toggleDarkMode:hover {
-  color: #2795e9;
+  color: grey;
 }
 
 .twitter:hover {
-  color: #2795e9;
+  color: black;
 }
 
 .mastodon:hover {
@@ -102,7 +102,7 @@
 }
 
 .github:hover {
-  color: #c9510c;
+  color: black;
 }
 
 .youtube:hover {
@@ -110,7 +110,7 @@
 }
 
 .linkedin:hover {
-  color: #0077b5;
+  color: black;
 }
 
 .newsletter:hover {
